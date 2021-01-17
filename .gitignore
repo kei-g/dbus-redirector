@@ -1,0 +1,7 @@
+**/*.deb
+**/*.o
+**/*.xz
+**/.vscode/
+**/dbus-redirector
+**/debian-binary
+**/md5sums
