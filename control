@@ -3,4 +3,7 @@ Depends: libc6 (>=2.31), libdbus-1-3 (>=1.12.16)
 Description: DBus Redirector
 Maintainer: kei-g <km.8k6ce+debpkg@gmail.com>
 Package: dbus-redirector
+Priority: optional
+Section: misc
+Source: dbus-redirector
 Version: 1.0.0
