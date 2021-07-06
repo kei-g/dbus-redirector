@@ -14,7 +14,7 @@ TAR           = tar
 TARFLAGS      = --group root --owner root -ch
 
 CONTROLFILES = control md5sums
-DEBPKG = dbus-redirector_1.0_amd64.deb
+DEBPKG = dbus-redirector_1.0.0_amd64.deb
 TARGET_BINARY = usr/bin/dbus-redirector
 TARGET_SOURCES = core.c entries.c id.c log.c main.c mem.c pipe.c service.c thread.c
 TARGET_OBJECTS = $(TARGET_SOURCES:%.c=%.o)
