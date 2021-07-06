@@ -1,4 +1,8 @@
 language: c
 dist: focal
+addons:
+  apt:
+    packages:
+      - libdbus-1-dev
 script:
   - make
